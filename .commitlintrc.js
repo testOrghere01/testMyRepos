@@ -31,6 +31,8 @@ rules: {
     'subject-case': [2, 'always', 'sentence-case'],
     'header-min-length': [2, 'always', 15],
     'header-max-length': [2, 'always', 100],
+    'body-empty': [2, 'never'],
     'body-max-line-length': [2, 'always', 200],
+    'body-case': [0, 'always', bodyRe],
 }
 };
